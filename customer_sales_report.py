@@ -19,3 +19,4 @@ for i in sales_file:
     acc += total
 salesreport.write('\t'+customer_ID+' ' + str(format(acc, '.2f')) + '\n')
 salesreport.close()
+sales.close()

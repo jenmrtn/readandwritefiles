@@ -8,3 +8,4 @@ for i in employee_file:
     print('Total Pay:', format(float(i[3])*float(i[4]), '.2f'))
     print('Press any key to see the next employee.')
     input()
+employee.close()
